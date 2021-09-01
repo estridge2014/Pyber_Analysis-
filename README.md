@@ -66,9 +66,32 @@ The resulting graph is below.
 
 <img width="915" alt="Screen Shot 2021-08-31 at 8 48 03 PM" src="https://user-images.githubusercontent.com/84936545/131594146-553d6ec3-be8c-41c5-85b8-1a3387a750fe.png">
 
+The Y axis displays the average fare(in US$) and the X axis displays the week in which it occured. 
 
 ## Results
 
+Results by city type: 
+
+Urban: 
+* Total rides: 1625
+* Total drivers: 2405 
+* Total fares: 39,854.38$
+* Average fare per ride: 24.53$
+* Average fare per driver: 16.57$
+
+Suburban: 
+* Total rides: 625
+* Total drivers: 490 
+* Total fares: 19,356.33$
+* Average fare per ride: 30.97$
+* Average fare per driver: 39.50$
+
+Rural: 
+* Total rides: 125
+* Total drivers: 78
+* Total fares: 4327.93$
+* Average fare per ride: 34.62$
+* Average fare per driver: 44.49$
 
 
 ## Recommendations 
