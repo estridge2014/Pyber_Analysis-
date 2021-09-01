@@ -16,7 +16,7 @@ Using the Pandas groupby() function with the count() and sum() methods on pyber_
 
 <img width="611" alt="Screen Shot 2021-08-30 at 10 52 50 PM" src="https://user-images.githubusercontent.com/84936545/131591409-1ce164fc-dddd-4e16-895a-8620fc685c71.png">
 
-For deliverable 2, I created a multiple-line graph that shows the total fares for each week by city type. To do this I began by Using groupby()to create a new DataFrame showing the sum of the fares for each date where the indices are the city type and date. The code I used and the resulting dataframe are shown below. 
+For deliverable 2, I created a multiple-line graph that shows the total fares for each week by city type. To do this I began by Using groupby()to create a new DataFrame showing the sum of the fares for each date where the indices are the city type and date. Portions of the code I used and the resulting dataframes are shown below. To view the complete set of code written for this analysis, refer to PyBer_Challenge.ipynb. 
 
 ```
 new_pyber_data_df = pyber_data_df.groupby(["type", "date"]).sum()[["fare"]]
