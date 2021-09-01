@@ -96,6 +96,9 @@ Rural:
 
 ## Recommendations 
 
+1. The cities that earn the highest average fare per ride/driver are rural cities. Increase advertising in this area to promote the service, leading to more rides in an area that earns more money per ride. 
+2. Hire more drivers in the rural cities who will be needed to handle the increase in demand caused by the advertising in those cities. 
+3. Urban cities have more drivers than the demand requires. Incentivise urban drivers to provide services more often in rural and suburban areas. They will make higher average fares and this will help supply more drivers for the increased demand in those cities. 
 
 
 
