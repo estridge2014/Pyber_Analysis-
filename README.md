@@ -1,5 +1,63 @@
 # CUNY Portfolio Example #4: Pyber Rideshare App Analysis
 
+### Context of the project 
+
+Pyber is a python based ride sharing app. You're boss has given you a new assignment. Using Pandas I will create a summary DataFrame of ride-sharing data by city type. Using Pandas and Matplotlib, i will create a multiple-line graph showing total weekly fares for each city type. Finally, I will summarize how data differs by city type and how those differences can be used by decision-makers at PyBer.
+
+In previous analysis, I used pandas to examine data from CSV files ( [city_data.csv](https://github.com/estridge2014/Pyber_Analysis-/blob/main/Resources/city_data.csv) and [ride_data.csv](https://github.com/estridge2014/Pyber_Analysis-/blob/main/Resources/ride_data.csv )) containing ridesharing data from urban, suburban, and rural cities. ride_data.csv includes data of specific rides, cities they occured in, the fare and the ride id number. The city_data_csv included data on each individual city, it's type and number of drivers. In the exploratory stage of the analysis, I inspected data and determined the average ride count, fare, and average number of drivers for each city type.
+
+
+
+### Shortened analysis description 
+Find analysis code [here](https://github.com/estridge2014/Pyber_Analysis-/blob/main/PyBer_Challenge.ipynb)
+
+Deliverable 1: Merged data into one dataframe, "pyber_data_df". The first five rows are shown below.
+
+<img width="562" alt="Screen Shot 2021-08-31 at 8 16 48 PM" src="https://user-images.githubusercontent.com/84936545/131591995-20b4436a-c537-4cf8-81ad-5226e70ecaab.png">
+
+Deliverable 2: Created a multiple-line graph that shows the total fares for each week by city type.
+
+<img width="915" alt="Screen Shot 2021-08-31 at 8 48 03 PM" src="https://user-images.githubusercontent.com/84936545/131594146-553d6ec3-be8c-41c5-85b8-1a3387a750fe.png">
+
+
+
+ 
+Results by city type: 
+
+Urban: 
+* Total rides: 1625
+* Total drivers: 2405 
+* Total fares: 39,854.38$
+* Average fare per ride: 24.53$
+* Average fare per driver: 16.57$
+
+Suburban: 
+* Total rides: 625
+* Total drivers: 490 
+* Total fares: 19,356.33$
+* Average fare per ride: 30.97$
+* Average fare per driver: 39.50$
+
+Rural: 
+* Total rides: 125
+* Total drivers: 78
+* Total fares: 4327.93$
+* Average fare per ride: 34.62$
+* Average fare per driver: 44.49$
+
+
+1.	Rural cities earn the highest average fare per ride/driver. Increase advertising in this area to promote the service
+2.	Hire more drivers in the rural cities who will be needed to handle the increase in demand caused by advertising.
+3.	Urban cities have more drivers than the demand. Incentivise urban drivers to provide services in rural and suburban areas. They will make higher fares and will help meet increased demand in those cities.
+
+
+
+
+
+
+
+
+
 ## Overview
 
 Pyber is a python based ride sharing app. In previous analysis, I used python and pandas to examine data from large CSV files (city_data.csv and ride_data.csv). These files contain pyber ridesharing data from urban, suburban, and rural cities. ride_data.csv includes pyber data of specific rides, the cities they occured in, the fare and the ride id number. The city_data_csv included data on each individual city, it's type and it's number of drivers. In the exploratory stage of the analysis, I inspected the data and determined the average ride count, fare, and average number of drivers for each city type. Then, using matplotlib I created visualization of the data, through line graphs, bar graphs, pie graphs, scatter plots and box and whisker plots. This analysis is contained in the pyber.ipynb file which has been uploaded to this repository.  
